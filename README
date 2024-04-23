@@ -1,0 +1,21 @@
+Projet MowItNow (exercice fait pour Xebia en Mars 2012, mis sur github pour l'histoire)
+
+Projet maven standart
+  - nécéssite maven >= 2.0.9
+  - jdk6
+
+Compilation du projet
+  - mvn clean package
+
+Le test fonctionnel validant la spécification se trouve dans la classe :
+  -  eu.jeaneudes.xebia.test.FunctionalTest
+qui contient trois méthodes :
+  - testMower1 : valide le test 1
+  - testMower2 : valide le test 2
+  - testMowerWithFile : valide le scénario complet avec prise en compte d'un fichier, analyse et vérification des résultats.
+
+
+
+*****************************************************************************************************************************
+
+
